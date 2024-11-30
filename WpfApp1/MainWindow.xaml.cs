@@ -49,6 +49,13 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Combobox sh = new Combobox();
+            sh.Show();
+            this.Close();
+        }
     }
 
 }
