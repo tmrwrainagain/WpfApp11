@@ -23,5 +23,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void btneEquals_MouseEnter(object sender, MouseEventArgs e)
+        {
+            popup1.IsOpen = true;
+        }
     }
 }

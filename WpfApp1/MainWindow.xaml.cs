@@ -56,6 +56,13 @@ namespace WpfApp1
             sh.Show();
             this.Close();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Window3 windowz = new Window3();
+            windowz.Show();
+            this.Close();
+        }
     }
 
 }

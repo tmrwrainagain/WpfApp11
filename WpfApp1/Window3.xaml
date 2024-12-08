@@ -36,12 +36,18 @@
             <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1"/>
             <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2"/>
             <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="1"/>
-            <Button Name="btneEquals" Content="=" Grid.Row="0" Grid.Column="0"/>
+            <Button Name="btneEquals" Content="=" MouseEnter="btneEquals_MouseEnter" Grid.Row="0" Grid.Column="0"/>
+            <Popup x:Name="popup1" StaysOpen="False" Placement="Mouse" MaxWidth="180"
+         AllowsTransparency="True"  >
+                <TextBlock TextWrapping="Wrap" Width="180" Background="LightPink" Opacity="0.8" >
+            = значит равно. Итог действия :) (Popup)
+                </TextBlock>
+            </Popup>
             <Button Name="btnAdd" Content="+" Grid.Row="0" Grid.Column="1"/>
             <Button Name="btnMinus" Content="-" Grid.Row="0" Grid.Column="2"/>
             <Button Name="btnMulti" Content="*" Grid.Row="0" Grid.Column="3"/>
             <Button Name="btnDel" Content="/" Grid.Row="1" Grid.Column="3"/>
-            <Button Name="btn" Content="C" Grid.Row="4" Grid.Column="3"/>
+            <Button Name="btn" Content="C" ToolTip="Очистить (Tooltip)" Grid.Row="4" Grid.Column="3"/>
             <Button Name="btnDecemal" Content="." Grid.Row="4" Grid.Column="0"/>
             
             
