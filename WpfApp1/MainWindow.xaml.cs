@@ -63,6 +63,13 @@ namespace WpfApp1
             windowz.Show();
             this.Close();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Stack_panale stack = new Stack_panale();
+            stack.Show();
+            this.Close();
+        }
     }
 
 }
