@@ -59,6 +59,12 @@
     <Compile Include="Combobox.xaml.cs">
       <DependentUpon>Combobox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataPicker.xaml.cs">
+      <DependentUpon>DataPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleTimerApp.xaml.cs">
+      <DependentUpon>SimpleTimerApp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Stack_panale.xaml.cs">
       <DependentUpon>Stack_panale.xaml</DependentUpon>
     </Compile>
@@ -75,6 +81,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DataPicker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -87,6 +97,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SimpleTimerApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Stack_panale.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -70,6 +70,20 @@ namespace WpfApp1
             stack.Show();
             this.Close();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            SimpleTimerApp SimpleTimerWindow = new SimpleTimerApp();
+            SimpleTimerWindow.Show();
+            this.Close();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            DataPicker DataPickerWindow = new DataPicker();
+            DataPickerWindow.Show();
+            this.Close();
+        }
     }
 
 }
